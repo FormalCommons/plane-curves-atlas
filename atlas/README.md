@@ -115,8 +115,10 @@ curve to places, divisors of forms, adjoints and the genus formula.
   `HomogeneousLocalization.AtPrime 𝒜 ⊥` for the grading `𝒜` of
   $\Gamma_h(F)$ (Tau Ceti's `HomogeneousIdeal.quotientGrading`), to be shown a
   field. $\mathcal O_P(C)$ is the subring of the $f/g$ with $g(P)\ne0$, a
-  `LocalSubring` of $k(C)$: the image of `HomogeneousLocalization.AtPrime 𝒜 𝔭`
-  ($\mathfrak p$ the homogeneous prime of $P$) under Mathlib's
+  `LocalSubring` of $k(C)$, for $P\in C$: the image of
+  `HomogeneousLocalization.AtPrime 𝒜 𝔭` ($\mathfrak p=I(P)/(F)$, the
+  homogeneous prime of $P$ in $\Gamma_h(F)$, which exists only when
+  $P\in C$) under Mathlib's
   `HomogeneousLocalization.mapId`. Why this one: it is the book's definition;
   it needs no chart (no single chart serves every curve: the chart
   $X_i\ne0$ misses the curve $X_i=0$); all local
@@ -165,7 +167,9 @@ the declarations involved.
 
 **Order of work.** The milestones depend on one another in five stages;
 within a stage the parts are largely independent, and each stage needs the
-ones before it. (Checked against the dependencies the pages state.)
+ones before it, on the routes the pages recommend; some results move to a
+later stage on the book's own routes (for example Theorem 3 and Lemma 2 of
+§7.5 through Theorem 2 of §7.4), and the pages say where.
 
 1. *Core.* The milestones of the [affine page](../auxiliary/affine-varieties.md)
    (§§1.6, 1.7, 2.4, 2.6, 2.8, 2.9, 2.10; §2.9 needs §1.7) and all of

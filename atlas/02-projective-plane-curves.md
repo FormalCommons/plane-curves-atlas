@@ -17,7 +17,7 @@ Parts of this page:
 
 1. Library status
 2. Conventions
-3. Milestones, by section (24 milestones)
+3. Milestones (24), by section: §5.1 (five), §5.2 (one), §5.3 (six), §5.4 (two), §5.5 (two), §5.6 (eight)
 4. Correspondence with Mathlib and Tau Ceti
 5. Notes on the source
 6. Deferred

@@ -7,7 +7,7 @@ The chapter mixes two kinds of mathematics. One is the theory of an algebraic fu
 Parts of the page:
 
 1. [Conventions](#conventions): the book's, the libraries', and the traps between them.
-2. [Milestones](#milestones), by section:
+2. [Milestones](#milestones) (14), by section: §8.1 (four), §8.2 (none), §8.3 (five), §8.4 (one), §8.5 (one), §8.6 (three):
    [§8.1](#81-divisors), [§8.2](#82-the-vector-spaces-ld), [§8.3](#83-riemanns-theorem), [§8.4](#84-derivations-and-differentials), [§8.5](#85-canonical-divisors), [§8.6](#86-riemannroch-theorem).
 3. [Correspondence with Mathlib and Tau Ceti](#correspondence-with-mathlib-and-tau-ceti).
 4. [Notes on the source](#notes-on-the-source).
