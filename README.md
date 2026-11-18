@@ -8,8 +8,10 @@ says what the two libraries already have.
 
 Start at the front page, [atlas/README.md](atlas/README.md).
 
-- `atlas/`: the theory of plane curves, one page per chapter of the book.
-- `auxiliary/`: prerequisites that stand on their own.
+- `atlas/`: the theory of plane curves, one page for each of Chapters 3, 5, 7
+  and 8 of the book.
+- `auxiliary/`: prerequisites that stand on their own, one page for Chapters
+  1–2, one for Chapter 4 and one for Chapter 6.
 - `atlas/references.bib`: the sources.
 
 [AGENTS.md](AGENTS.md) holds the conventions for editing the atlas.
